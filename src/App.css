@@ -4,17 +4,55 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  
+}
+label {
+  color: #dfca45;
+}
+#icon {
+  margin-top: 1pc;
+  width: 5%;
+}
+h1{
+  color: black;
+  background-color:white ;
+  border-radius: 5px;
+  padding: 1pc;
+  margin-top: 0;;
+  margin-bottom: 1pc;;
 }
 
 .product {
   background: white;
-  display: flex;
-  flex-direction: row;
-  border: 2px solid black;
-  border-radius: 3px;
-  width: 100px;
-  height: 100px;
-  margin: 25px;
+  display: flex ;
+  border-radius: 10px;
+  box-shadow: 3px 5px #BDC0BA;
+  width: 55pc;
+  margin: 15px;
+  font-family: 'Courier New', Courier, monospace;
+
 }
 
+
+img {
+  width: 8pc;
+  padding: 12px;
+}
+
+p {
+  font-style: italic;
+}
+.description{
+  width: 45pc;
+  text-align: left;
+  margin: 0%;
+}
+#price{
+  text-align: right;
+  font-weight: bold;
+  color: #304f2f;
+  font-size: 20px;
+}
 
